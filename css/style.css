@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.discount { 
+    background-color: aquamarine;
+    font-size: 10px;
+    color: gray;
+}
+
+.super-hero {
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sombra{
+    background-color: rgb(194, 195, 199);
+    height: 10px;
+}
+
+.conteiner {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.card {
+width: 374px;
+height: 600px;
+background-color: whitesmoke ;
+position: relative;
+
+}
+
+.heart {
+    position: absolute;
+    top:10px;
+    left:20px;
+
+}
+
+.batman {
+    position: absolute;
+    left:110px;
+    top: 150px;
+    border-radius: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+button {
+    background-color: aquamarine;
+    height: 50px;
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 114px;
+    margin-right: 115px;    
+ }
+
+footer{
+ background-color: #009ffc;
+ padding: 20px;
+ color: rgb(194, 195, 199);
+
+}
+ 
+
+
+
+
+
+
+
